@@ -45,7 +45,7 @@ The bus stop should have a mechanism to indicate that the bus has reached the bu
 	•	Blue LED
 	•	Jumper Cable
 
-# Design:
+** Design:
 
     1.Smart Bus:
 
