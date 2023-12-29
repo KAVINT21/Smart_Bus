@@ -79,5 +79,6 @@ Design:
 
 
 
-![image](https://github.com/KAVINT21/Smart_Bus/assets/95117554/4f8c34b5-9de0-4121-8ec9-1502eca3c5ae)
+![image](https://github.com/KAVINT21/Smart_Bus/assets/95117554/4f8c34b5-9de0-4121-8ec9-1502eca3c5ae)        ![image](https://github.com/KAVINT21/Smart_Bus/assets/95117554/364f5ee7-e3cd-44f6-8cb7-b0c7046a218d)
+
 
