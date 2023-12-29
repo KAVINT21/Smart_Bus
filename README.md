@@ -20,30 +20,30 @@ The recharging system would also contain a card tapping system that gets the dat
 The bus stop should have a mechanism to indicate that the bus has reached the bus stop.
 
 # System Requirements:
-1.	SMART BUS:
-•	Arduino Uno R3 (Microcontroller)
-•	HC-SR04 Ultrasonic Sensor
-•	Tower Pro SG90 Micro Servo Motor
-•	Active Buzzer
-•	LCD 16x2
-•	Potentiometer
-•	RC522 RFID Card Reader
-•	IR Transmitter
-•	Jumper Cables
-•	Toy Bus
-2.	Recharging System:
-•	Arduino Mega 2560 (Microcontroller)
-•	LCD 16x2
-•	Potentiometer
-•	RC522 RFID Card Reader
-•	4x4 Matrix Keypad
-•	Jumper Cable
-3.	Bus Stop:
-•	Arduino Uno R3 (Microcontroller)
-•	Tower Pro SG90 Micro Servo Motor
-•	IR Receiver
-•	Blue LED
-•	Jumper Cable
+     1.	SMART BUS:
+	•	Arduino Uno R3 (Microcontroller)
+	•	HC-SR04 Ultrasonic Sensor
+	•	Tower Pro SG90 Micro Servo Motor
+	•	Active Buzzer
+	•	LCD 16x2
+	•	Potentiometer
+	•	RC522 RFID Card Reader
+	•	IR Transmitter
+	•	Jumper Cables
+	•	Toy Bus
+    2.	Recharging System:
+	•	Arduino Mega 2560 (Microcontroller)
+	•	LCD 16x2
+	•	Potentiometer
+	•	RC522 RFID Card Reader
+	•	4x4 Matrix Keypad
+	•	Jumper Cable
+    3.	Bus Stop:
+	•	Arduino Uno R3 (Microcontroller)
+	•	Tower Pro SG90 Micro Servo Motor
+	•	IR Receiver
+	•	Blue LED
+	•	Jumper Cable
 
 # Design:
 
@@ -69,7 +69,9 @@ The bus stop should have a mechanism to indicate that the bus has reached the bu
       •	LCD 16x2 placed in front displays the balance of the card and any other operations carried by the user. The Potentiometer is used to change the contrast of the LCD.
       •	The RFID Card Reader is placed at the right side of the recharging system to carry out all the operations in the card.
 
-**    3.Bus Stop:
+    
+    3.Bus Stop:
+    
       •	The IR Receiver placed 20cm in front of the bus stop receives the signal from the IR transmitter of the bus and passes this info to Arduino Uno R3.
       •	When the Servo motor placed at the top of the bus stop gets the info that the bus is going to reach the bus stop it rotates 180o and blocks the vision of the ultrasonic sensor. This in turn activates the 
         automatic braking system and the bus stops correctly in front of the bus stop.
